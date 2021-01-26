@@ -1,0 +1,148 @@
+#root {
+    width: 100%;
+  }
+  
+  #root .App {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  #root .App .bg {
+    width: 100%;
+    height: 41rem;
+    background-image: url(./img/background2.png);
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: blur(80px);
+            filter: blur(80px);
+    position: relative;
+  }
+  
+  #root .App .search {
+    position: absolute;
+    top: 10rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  #root .App .search .input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  #root .App .search .input input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: none;
+  }
+  
+  #root .App .search .input button {
+    border: none;
+    background: none;
+  }
+  
+  #root .App .search .input button i {
+    font-size: 20px;
+  }
+  
+  #root .App .search .box {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  #root .App .search .box h2 a {
+    font-family: 'DM Serif Text', serif;
+    text-decoration: none;
+    color: black;
+  }
+  
+  #root .App .navbar {
+    position: absolute;
+    top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  
+  #root .App .navbar .navbar-logo h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  #root .App .navbar .navbar-menu {
+    margin-right: 10rem;
+  }
+  
+  #root .App .navbar .navbar-menu ul {
+    margin-top: 21.44px;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+  }
+  
+  #root .App .navbar .navbar-menu ul li {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 10px;
+    height: 46.4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  #root .App .navbar .navbar-menu ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #root .App .navbar .button a {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px 30px;
+    position: absolute;
+    top: 30px;
+    right: 12px;
+  }
+  
+  #root .App .home {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
